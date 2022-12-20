@@ -8,8 +8,8 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0px auto;
     max-width: 100%; 
-    width: 50%; 
-    background-image: url("bgImage3.jpg");
+    width: 60%; 
+    background-image: url("pexels-vladimir-gladkov-6208084.jpg");
     background-size:cover;
   }
 
@@ -29,7 +29,7 @@ body {
     margin: 1em;
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--primary-color);
+    color: #52525b;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur( 15px );
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -51,7 +51,9 @@ body {
     border-radius: 1rem;
     text-align: center;
     color:var(--primary-color);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
+
     backdrop-filter: blur( 15px );
     border: 1px solid rgba(255, 255, 255, 0.1);
   }

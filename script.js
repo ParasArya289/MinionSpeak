@@ -30,5 +30,4 @@ function clickHandler() {
     })
     .catch((err) => alert(err.message));
 }
-
 btnTranslate.addEventListener("click", clickHandler);

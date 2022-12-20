@@ -1,71 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&family=Roboto:wght@100&display=swap");
 
-:root{
-    --primary-color:white;
+:root {
+  --primary-color: white;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 0px auto;
-    max-width: 100%; 
-    width: 60%; 
-    background-image: url("pexels-vladimir-gladkov-6208084.jpg");
-    background-size:cover;
-  }
+  font-family: "Poppins", sans-serif;
+  margin: 0px auto;
+  max-width: 100%;
+  width: 60%;
+  background-image: url("pexels-vladimir-gladkov-6208084.jpg");
+  background-size: cover;
+}
 
 .container {
-    padding: 0rem 1rem;
-  }
-  
+  padding: 0rem 1rem;
+}
+
 .container-center {
-    max-width: 900px;
-    width: 100%;
-    margin: auto;
-  }
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
 #txt-input {
-    width: 80%;
-    height: 10vh;
-    display: block;
-    margin: 1em;
-    padding: 1rem;
-    border-radius: 1rem;
-    color: #52525b;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur( 15px );
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1em;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #52525b;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
-#btn-translate{
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur( 15px );
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;;
-    padding: 0.6rem 1rem;
-    color:var(--primary-color);
+
+#btn-translate {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 0.6rem 1rem;
+  color: var(--primary-color);
 }
-#output{
-    padding: 1rem;
+
+#btn-translate:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
+
+#output {
+  padding: 1rem;
+}
+
 .section {
-    padding: 2rem;
-    margin: 2.5rem 0;
-    border-radius: 1rem;
-    text-align: center;
-    color:var(--primary-color);
-    background: rgba(255, 255, 255, 0.1);
-    /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
+  padding: 2rem;
+  margin: 2.5rem 0;
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.1);
+  /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
 
-    backdrop-filter: blur( 15px );
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+  body {
+    max-width: 95%;
+    width: 90%;
   }
 
-  @media (max-width: 600px) {
-    body {
-      max-width: 95%;
-      width: 90%;
-    }
-  
-    .container-center {
-      width: auto;
-    }
-  
+  .container-center {
+    width: auto;
   }
+}

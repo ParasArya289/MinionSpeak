@@ -9,7 +9,7 @@ body {
   margin: 0px auto;
   max-width: 100%;
   width: 60%;
-  background-image: url("pexels-vladimir-gladkov-6208084.jpg");
+  background-image: url("./images/bgimage.jpg");
   background-size: cover;
 }
 

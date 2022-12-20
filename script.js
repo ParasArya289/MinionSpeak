@@ -2,22 +2,16 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var apiURL = "https://api.funtranslations.com/translate/minion.json/";
+var apiURL = "	https://api.funtranslations.com/translate/yoda.json";
 
-function getTranslationURL(input) {
+function get(input) {
   return apiURL + "?" + "text=" + input;
 }
 
-function errorHandler(err) {
-  console.log("Error", err);
-  alert("something wrong with server! try again after some time");
-}
-
 function clickHandler() {
-  var inputText = txtInput.value; // taking input
+  var inputText = txtInput.value;
 
-  // calling server for processing
-  fetch(getTranslationURL(inputText))
+  fetch(get(inputText))
     .then((response) => {
       if (!response.ok) {
         throw new Error("something went wrong");

@@ -33,12 +33,14 @@ body {
   color: #52525b;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #btn-translate {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   padding: 0.6rem 1rem;
@@ -60,9 +62,8 @@ body {
   text-align: center;
   color: var(--primary-color);
   background: rgba(255, 255, 255, 0.1);
-  /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
-
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
